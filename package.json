@@ -1,0 +1,22 @@
+{
+	"name": "hallregistration_backend",
+	"version": "1.0.0",
+	"description": "Backend for hall registration",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"Hall"
+	],
+	"author": "Mushud",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mongoose": "^5.7.4"
+	}
+}
